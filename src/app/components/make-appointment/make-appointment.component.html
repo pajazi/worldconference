@@ -1,0 +1,26 @@
+<form class="meeting-select-options" [formGroup]="appointmentForm">
+    <ng-container *ngIf="countries">
+        <mat-form-field appearance="outline">
+            <mat-label>Select Country</mat-label>
+            <mat-select multiple formControlName="countries">
+                <mat-option *ngFor="let country of countries" [value]="country.id">{{country.countryName}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </ng-container>
+    <ng-container *ngIf="companies">
+        <mat-form-field appearance="outline">
+            <mat-label>Select Company</mat-label>
+            <mat-select multiple formControlName="companies">
+                <mat-option *ngFor="let company of companies" [value]="company.id">{{company.name}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </ng-container>
+    <ng-container *ngIf="employees">
+        <mat-form-field appearance="outline">
+            <mat-label>Select Employee</mat-label>
+            <mat-select multiple formControlName="employees">
+                <mat-option *ngFor="let employee of employees" [value]="employee.id">{{employee.name}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </ng-container>
+</form>

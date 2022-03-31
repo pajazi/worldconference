@@ -1,8 +1,13 @@
 mat-toolbar {
     background-color: white;
     box-shadow: 0 4px 2px -2px gainsboro;
-}
-
-h3 {
     color: #336bb2;
+
+    mat-icon {
+        margin-left: auto;
+    }
+
+    h3 {
+        margin-left: 200px;
+    }
 }

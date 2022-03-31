@@ -1,6 +1,10 @@
 <div class="sidebar-content">
-    <h2>Account</h2>
+    <h2 class="account-info">Account</h2>
 
-    <a class="link" ngClass="" [routerLink]="['/']" routerLinkActive="active-link">Calendar</a>
-    <a class="link" ngClass="" [routerLink]="['/appointment']" routerLinkActive="active-link">Make Appointment</a>
+    <a class="link" [routerLink]="['/']" routerLinkActive="active-link">
+        <mat-icon>account_circle</mat-icon>Make Appointment
+    </a>
+    <a class="link" [routerLink]="['/calendar']" routerLinkActive="active-link">
+        <mat-icon>vpn_key</mat-icon> Calendar
+    </a>
 </div>
