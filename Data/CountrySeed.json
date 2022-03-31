@@ -1,0 +1,277 @@
+[
+    {
+        "CountryName": "Afghanistan",
+        "CountryCode": "AF",
+        "RegionCode": "AFG"
+    },
+    {
+        "CountryName": "Armenia",
+        "CountryCode": "AM",
+        "RegionCode": "ARM"
+    },
+    {
+        "CountryName": "Azerbaijan",
+        "CountryCode": "AZ",
+        "RegionCode": "AZE"
+    },
+    {
+        "CountryName": "Bahrain",
+        "CountryCode": "BH",
+        "RegionCode": "BHR"
+    },
+    {
+        "CountryName": "Bangladesh",
+        "CountryCode": "BD",
+        "RegionCode": "BGD"
+    },
+    {
+        "CountryName": "Bhutan",
+        "CountryCode": "BT",
+        "RegionCode": "BTN"
+    },
+    {
+        "CountryName": "British Indian Ocean Territory",
+        "CountryCode": "IO",
+        "RegionCode": "IOT"
+    },
+    {
+        "CountryName": "Brunei Darussalam",
+        "CountryCode": "BN",
+        "RegionCode": "BRN"
+    },
+    {
+        "CountryName": "Cambodia",
+        "CountryCode": "KH",
+        "RegionCode": "KHM"
+    },
+    {
+        "CountryName": "China",
+        "CountryCode": "CN",
+        "RegionCode": "CHN"
+    },
+    {
+        "CountryName": "Christmas Island",
+        "CountryCode": "CX",
+        "RegionCode": "CXR"
+    },
+    {
+        "CountryName": "Cocos (Keeling) Islands",
+        "CountryCode": "CC",
+        "RegionCode": "CCK"
+    },
+    {
+        "CountryName": "Cyprus",
+        "CountryCode": "CY",
+        "RegionCode": "CYP"
+    },
+    {
+        "CountryName": "Georgia",
+        "CountryCode": "GE",
+        "RegionCode": "GEO"
+    },
+    {
+        "CountryName": "Hong Kong",
+        "CountryCode": "HK",
+        "RegionCode": "HKG"
+    },
+    {
+        "CountryName": "India",
+        "CountryCode": "IN",
+        "RegionCode": "IND"
+    },
+    {
+        "CountryName": "Indonesia",
+        "CountryCode": "ID",
+        "RegionCode": "IDN"
+    },
+    {
+        "CountryName": "Iran, Islamic Republic of",
+        "CountryCode": "IR",
+        "RegionCode": "IRN"
+    },
+    {
+        "CountryName": "Iraq",
+        "CountryCode": "IQ",
+        "RegionCode": "IRQ"
+    },
+    {
+        "CountryName": "Israel",
+        "CountryCode": "IL",
+        "RegionCode": "ISR"
+    },
+    {
+        "CountryName": "Japan",
+        "CountryCode": "JP",
+        "RegionCode": "JPN"
+    },
+    {
+        "CountryName": "Jordan",
+        "CountryCode": "JO",
+        "RegionCode": "JOR"
+    },
+    {
+        "CountryName": "Kazakhstan",
+        "CountryCode": "KZ",
+        "RegionCode": "KAZ"
+    },
+    {
+        "CountryName": "Korea, Democratic People's Republic of",
+        "CountryCode": "KP",
+        "RegionCode": "PRK"
+    },
+    {
+        "CountryName": "Korea, Republic of",
+        "CountryCode": "KR",
+        "RegionCode": "KOR"
+    },
+    {
+        "CountryName": "Kuwait",
+        "CountryCode": "KW",
+        "RegionCode": "KWT"
+    },
+    {
+        "CountryName": "Kyrgyzstan",
+        "CountryCode": "KG",
+        "RegionCode": "KGZ"
+    },
+    {
+        "CountryName": "Lao People's Democratic Republic",
+        "CountryCode": "LA",
+        "RegionCode": "LAO"
+    },
+    {
+        "CountryName": "Lebanon",
+        "CountryCode": "LB",
+        "RegionCode": "LBN"
+    },
+    {
+        "CountryName": "Macao",
+        "CountryCode": "MO",
+        "RegionCode": "MAC"
+    },
+    {
+        "CountryName": "Malaysia",
+        "CountryCode": "MY",
+        "RegionCode": "MYS"
+    },
+    {
+        "CountryName": "Maldives",
+        "CountryCode": "MV",
+        "RegionCode": "MDV"
+    },
+    {
+        "CountryName": "Mongolia",
+        "CountryCode": "MN",
+        "RegionCode": "MNG"
+    },
+    {
+        "CountryName": "Myanmar",
+        "CountryCode": "MM",
+        "RegionCode": "MMR"
+    },
+    {
+        "CountryName": "Nepal",
+        "CountryCode": "NP",
+        "RegionCode": "NPL"
+    },
+    {
+        "CountryName": "Oman",
+        "CountryCode": "OM",
+        "RegionCode": "OMN"
+    },
+    {
+        "CountryName": "Pakistan",
+        "CountryCode": "PK",
+        "RegionCode": "PAK"
+    },
+    {
+        "CountryName": "Palestinian Territory, Occupied",
+        "CountryCode": "PS",
+        "RegionCode": "PSE"
+    },
+    {
+        "CountryName": "Philippines",
+        "CountryCode": "PH",
+        "RegionCode": "PHL"
+    },
+    {
+        "CountryName": "Qatar",
+        "CountryCode": "QA",
+        "RegionCode": "QAT"
+    },
+    {
+        "CountryName": "Russian Federation",
+        "CountryCode": "RU",
+        "RegionCode": "RUS"
+    },
+    {
+        "CountryName": "Saudi Arabia",
+        "CountryCode": "SA",
+        "RegionCode": "SAU"
+    },
+    {
+        "CountryName": "Singapore",
+        "CountryCode": "SG",
+        "RegionCode": "SGP"
+    },
+    {
+        "CountryName": "Sri Lanka",
+        "CountryCode": "LK",
+        "RegionCode": "LKA"
+    },
+    {
+        "CountryName": "Syrian Arab Republic",
+        "CountryCode": "SY",
+        "RegionCode": "SYR"
+    },
+    {
+        "CountryName": "Taiwan, Province of China",
+        "CountryCode": "TW",
+        "RegionCode": "TWN"
+    },
+    {
+        "CountryName": "Tajikistan",
+        "CountryCode": "TJ",
+        "RegionCode": "TJK"
+    },
+    {
+        "CountryName": "Thailand",
+        "CountryCode": "TH",
+        "RegionCode": "THA"
+    },
+    {
+        "CountryName": "Timor-Leste",
+        "CountryCode": "TL",
+        "RegionCode": "TLS"
+    },
+    {
+        "CountryName": "Turkey",
+        "CountryCode": "TR",
+        "RegionCode": "TUR"
+    },
+    {
+        "CountryName": "Turkmenistan",
+        "CountryCode": "TM",
+        "RegionCode": "TKM"
+    },
+    {
+        "CountryName": "United Arab Emirates",
+        "CountryCode": "AE",
+        "RegionCode": "ARE"
+    },
+    {
+        "CountryName": "Uzbekistan",
+        "CountryCode": "UZ",
+        "RegionCode": "UZB"
+    },
+    {
+        "CountryName": "Viet Nam",
+        "CountryCode": "VN",
+        "RegionCode": "VNM"
+    },
+    {
+        "CountryName": "Yemen",
+        "CountryCode": "YE",
+        "RegionCode": "YEM"
+    }
+]

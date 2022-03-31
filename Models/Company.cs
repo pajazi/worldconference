@@ -28,6 +28,8 @@ namespace api.Models
 
         public DateTime Modified { get; set; }
 
+        public Country Country { get; set; }
+
         public ICollection<Employee> Employees { get; set; }
 }
 }

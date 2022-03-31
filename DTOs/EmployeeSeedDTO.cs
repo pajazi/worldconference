@@ -1,14 +1,9 @@
-
 using System;
 
-namespace api.Models
+namespace api.DTO
 {
-    public class Employee : IModel
+    public class EmployeeSeedDTO
     {
-        public int Id { get; set; }
-
-        public Company Company { get; set; }
-
         public string Name { get; set; }
 
         public string Address { get; set; }
@@ -19,12 +14,10 @@ namespace api.Models
 
         public string Status { get; set; }
 
-        public byte[] PasswordHash { get; set; }
-
-        public byte[] PasswordSalt { get; set; }
-
         public DateTime Created { get; set; }
 
         public DateTime Modified { get; set; }
+
+        public int CompanyId { get; set; }
     }
 }
