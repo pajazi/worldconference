@@ -1,0 +1,13 @@
+.main-content {
+    display: flex;
+    flex-direction: row;
+
+    app-sidebar {
+        width: 250px;
+        height: calc(100vh - 105px);
+    }
+
+    app-make-appointment {
+        width: 100%;
+    }
+}
