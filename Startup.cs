@@ -1,4 +1,5 @@
 using api.Data;
+using api.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -44,6 +45,9 @@ namespace api
             .AllowCredentials()
             ));
 
+			services.AddScoped<EmployeeRepo>();
+			services.AddScoped<CountryRepo>();
+			services.AddScoped<CompanyRepo>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
