@@ -1,6 +1,9 @@
 
+using System.Collections.Generic;
 using System.Threading.Tasks;
+using api.DTO;
 using api.Repository;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 
 namespace api.Controllers
@@ -11,16 +14,19 @@ namespace api.Controllers
 	{
 		private readonly CountryRepo _repo;
 
-		public CountryController(CountryRepo repo)
+        private readonly IMapper _mapper;
+
+        public CountryController(CountryRepo repo, IMapper mapper)
 		{
 			_repo = repo;
+			_mapper = mapper;
 		}
 
 		[HttpGet]
 		public async Task<IActionResult> GetCountries()
 		{
 			var countries = await _repo.Get();
-			return new JsonResult(countries);
+			return new JsonResult(_mapper.Map<IEnumerable<CountryListDTO>>(countries));
 		}
 	}
 }

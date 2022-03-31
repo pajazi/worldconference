@@ -1,5 +1,7 @@
 using api.Data;
+using api.Models;
 using api.Repository;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -45,6 +47,7 @@ namespace api
             .AllowCredentials()
             ));
 
+            services.AddAutoMapper(typeof(Repo<IModel, DbContext>).Assembly);
 			services.AddScoped<EmployeeRepo>();
 			services.AddScoped<CountryRepo>();
 			services.AddScoped<CompanyRepo>();

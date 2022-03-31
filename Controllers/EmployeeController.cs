@@ -1,6 +1,9 @@
 
+using System.Collections.Generic;
 using System.Threading.Tasks;
+using api.DTO;
 using api.Repository;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 
 namespace api.Controllers
@@ -11,16 +14,19 @@ namespace api.Controllers
 	{
 		private readonly EmployeeRepo _repo;
 
-		public EmployeeController(EmployeeRepo repo)
+        private readonly IMapper _mapper;
+
+        public EmployeeController(EmployeeRepo repo, IMapper mapper)
 		{
 			_repo = repo;
+			_mapper = mapper;
 		}
 
 		[HttpGet]
 		public async Task<IActionResult> GetEmployees()
 		{
 			var employees = await _repo.Get();
-			return new JsonResult(employees);
+			return new JsonResult(_mapper.Map<IEnumerable<EmployeeListDTO>>(employees));
 		}
 	}
 }
