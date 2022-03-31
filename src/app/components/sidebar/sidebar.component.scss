@@ -8,4 +8,13 @@
     * {
         color: white;
     }
+
+    .link {
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .active-link {
+        background-color: #265187;
+    }
 }
