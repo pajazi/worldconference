@@ -4,6 +4,6 @@ namespace api.Search
 {
     public class CompanySearchCriteria : SearchCriteria
     {
-        public List<int> CompanyIds { get; set; }
+        public List<int> CompanyId { get; set; }
     }
 }

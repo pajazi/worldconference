@@ -25,7 +25,7 @@ namespace api.Repository
 		public async Task<PagedList<Company>> GetCompanyTable(CompanySearchCriteria searchCriteria)
 		{
 			var companies = _context.Companies.Include(c => c.Country)
-											  .Include(c => c.Country).AsQueryable();
+											  .Include(c => c.Employees).AsQueryable();
 
 			companies = ProcessSearchCriteria(companies, searchCriteria);
 
@@ -35,8 +35,8 @@ namespace api.Repository
 		private IQueryable<Company> ProcessSearchCriteria(IQueryable<Company> companies, CompanySearchCriteria searchCriteria) 
         {
 
-            if (searchCriteria.CompanyIds.Count != 0)
-				companies = companies.Where(c => searchCriteria.CompanyIds.Any(id => id == c.Id));
+            if (searchCriteria.CompanyId.Count != 0)
+				companies = companies.Where(c => searchCriteria.CompanyId.Any(id => id == c.Id));
 
             return companies;
         }
