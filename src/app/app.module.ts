@@ -9,18 +9,22 @@ import { HttpClientModule } from '@angular/common/http'
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSelectModule } from '@angular/material/select';
 import { MatIconModule } from '@angular/material/icon';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 import { MakeAppointmentComponent } from './components/make-appointment/make-appointment.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { AppointmentTableComponent } from './components/appointment-table/appointment-table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MakeAppointmentComponent,
     NavbarComponent,
-    SidebarComponent
+    SidebarComponent,
+    AppointmentTableComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +35,9 @@ import { ReactiveFormsModule } from '@angular/forms';
 
     MatToolbarModule,
     MatSelectModule,
-    MatIconModule
+    MatIconModule,
+    MatTableModule,
+    MatPaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
