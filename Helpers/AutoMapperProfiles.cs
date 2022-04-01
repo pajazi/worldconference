@@ -11,6 +11,8 @@ namespace api.Helpers
             CreateMap<Country, CountryListDTO>();
             CreateMap<Employee, EmployeeListDTO>();
             CreateMap<Company, CompanyListDTO>();
+			CreateMap<Company, CompanyTableListDTO>()
+				.ForMember(dest => dest.Country, opt => opt.MapFrom(src => src.Country.CountryName));
         }
     }
 }
