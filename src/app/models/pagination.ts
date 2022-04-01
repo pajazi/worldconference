@@ -6,6 +6,6 @@ export interface Pagination {
 }
 
 export class PeginationResult<T> {
-  result: T; //users or messages
+  result: T;
   pagination: Pagination;
 }
