@@ -27,8 +27,7 @@ export class AppointmentTableComponent implements OnChanges {
           map(response => ({
             data: response.body.map(country => ({...country, employees: country.employees.map(e => e.name).join(', ')})),
             pagination: JSON.parse(response.headers.get('Pagination'))
-          })),
-          tap((e) => console.log(e))
+          }))
         )
   }
 

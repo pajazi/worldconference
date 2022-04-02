@@ -42,12 +42,12 @@ export class MakeAppointmentComponent implements OnInit {
       .pipe(
         distinctUntilChanged((a, b) => JSON.stringify(a) === JSON.stringify(b)),
         tap((v) => {
-          this.appointmentForm.get('countries').setValue(v.countries);
+          this.appointmentForm.get('countries').setValue([...new Set([...v.countries, ...this.companies.filter(c => v.companies.includes(c.id)).map(c => c.countryId)])]);
           this.appointmentForm.get('employees').setValue([...new Set([...v.employees, ...this.employees.filter(e => v.companies.includes(e.companyId)).map(e => e.id)])]);
           this.appointmentForm.get('companies').setValue([...new Set([...v.companies, ...this.companies.filter(c => v.countries.includes(c.countryId)).map(c => c.id)])]);
         })
       )
       .subscribe();
   }
-
+  
 }
